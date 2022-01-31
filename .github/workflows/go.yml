@@ -1,6 +1,4 @@
 name: go-crossbuild
-  # You may pin to the exact commit or the version.
-  # uses: izumin5210/action-go-crossbuild@77788a44756d2fd2ba1eb9a4252b471397c63ffc
   uses: izumin5210/action-go-crossbuild@v1.0.0
   with:
     # An application name
