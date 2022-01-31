@@ -61,7 +61,7 @@ release:
 
   # You can disable this pipe in order to not upload any artifacts.
   # Defaults to false.
-  disable: true
+  disable: false
 
   # You can add extra pre-existing files to the release.
   # The filename on the release will be the last part of the path (base).
