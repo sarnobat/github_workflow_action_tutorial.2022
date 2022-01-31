@@ -3,6 +3,10 @@ name: Generate release-artifacts
 
 # on events
 on:
+  push:
+    branches:    
+      - 'main'
+      - 'releases/**'
   release:
     types: 
         - created
