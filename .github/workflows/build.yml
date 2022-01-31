@@ -6,6 +6,7 @@ on:
     # But you can restrict the runs if necessary.
     branches:
       - "*"
+  workflow_dispatch:
 
 jobs:
   build:
