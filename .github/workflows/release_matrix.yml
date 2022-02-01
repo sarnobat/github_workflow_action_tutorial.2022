@@ -17,5 +17,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: ${{ matrix.goos }}
-        goarch: ${{ matrix.goarch }}
-        extra_files: LICENSE README.md
+        goarch: ${{ matrix.goarch }}"
+        build_flags: -v
+        extra_files: README.md
